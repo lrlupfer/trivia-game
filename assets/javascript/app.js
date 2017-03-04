@@ -96,7 +96,7 @@ $(document).ready(function() {
 			$('#question').html(i.question);
 			$.each(i.choices, function(index, value) {
 				var answer = $('<button>')
-					.addClass('btn choice')
+					.addClass('btn btn-success')
 					.html(i.choices[index])
 					.on('click', game.check);
 				$('#answer').append(answer);
@@ -158,7 +158,7 @@ $(document).ready(function() {
 	//array of all the question and answer objects
     var triviaQuestions = [{
         question: "Which Saturday Night Live cast member first portrayed republican vice presidential candidate Sarah Palin in 2008?",
-        choices: ["Amy Poehler", "Cecily Strong", "Tiny Fey", "Kristen Wiig"],
+        choices: ["Amy Poehler", "Cecily Strong", "Tina Fey", "Kristen Wiig"],
         correct: "Tina Fey",
         image: "tina-fey.gif",
     }, {

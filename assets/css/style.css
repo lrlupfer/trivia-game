@@ -27,10 +27,9 @@ body {
   background: black;
   color: white;
   font-family: "Gotham Ultra";
-  opacity: 50%;
   text-align: center;
   opacity: .8;
-  margin-top: 40px;
+  margin: 30px 0px 30px 0px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,17 +50,23 @@ body {
   text-align: center;
   color: white;
   width: 100%;
+  font-size: 2em;
 }
 
 #question {
   text-align: center;
   color: white;
   width: 100%;
+  font-size: 1.5em;
 }
 
 #answer {
   text-align: center;
   color: white;
   width: 100%;
+}
+
+.btn-successs {
+  margin: 10px 10px 10px 10px;
 }
 
